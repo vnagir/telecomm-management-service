@@ -1,5 +1,5 @@
 # telecomm-management-service
-##This service provides capability of allocating the calls to a network based on the cal phone provider. 
+## This service provides capability of allocating the calls to a network based on the cal phone provider. 
 This repository contains 4 services
 Configserver(Task C)
 Service Registry

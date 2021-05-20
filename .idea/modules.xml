@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/configuration/configuration.iml" filepath="$PROJECT_DIR$/configuration/configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/discovery/discovery.iml" filepath="$PROJECT_DIR$/discovery/discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inventory-manager/inventory-manager.iml" filepath="$PROJECT_DIR$/inventory-manager/inventory-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-gateway/service-gateway.iml" filepath="$PROJECT_DIR$/service-gateway/service-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/telecomm-management-service.iml" filepath="$PROJECT_DIR$/telecomm-management-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TrafficAnalyzer/tower-traffic-analyzer.iml" filepath="$PROJECT_DIR$/TrafficAnalyzer/tower-traffic-analyzer.iml" />
+    </modules>
+  </component>
+</project>

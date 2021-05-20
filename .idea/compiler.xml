@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="discovery" />
+        <module name="service-gateway" />
+        <module name="tower-traffic-analyzer" />
+        <module name="inventory-manager" />
+        <module name="configuration" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="admin" target="1.8" />
+      <module name="configuration" target="1.8" />
+      <module name="discovery" target="1.8" />
+      <module name="inventory-manager" target="1.8" />
+      <module name="service-gateway" target="1.8" />
+      <module name="telecomm-management-service" target="1.5" />
+      <module name="tower-traffic-analyzer" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="admin" options="-parameters" />
+      <module name="configuration" options="-parameters" />
+      <module name="discovery" options="-parameters" />
+      <module name="inventory-manager" options="-parameters" />
+      <module name="service-gateway" options="-parameters" />
+      <module name="tower-traffic-analyzer" options="-parameters" />
+    </option>
+  </component>
+</project>

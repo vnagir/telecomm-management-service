@@ -1,0 +1,3 @@
+com/telecom/configuration/auth/BasicHttpWebSecurityConfiguration.class
+com/telecom/configuration/TelecommManagementConfigurationApplication.class
+com/telecom/configuration/ServletInitializer.class

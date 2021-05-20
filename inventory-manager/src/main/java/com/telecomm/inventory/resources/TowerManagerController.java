@@ -14,7 +14,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/manager")
 public class TowerManagerController {
-    private static final Logger LOGGER = LoggerFactory.getLogger(TowerManagerController.class);
+
     @Autowired
     private TowerRepository repository;
     @Autowired

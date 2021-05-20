@@ -18,3 +18,8 @@ The service gateway will provide an entry point for Traffic analyzer to get filt
 ![image](https://user-images.githubusercontent.com/42976090/118928520-f36fcf00-b908-11eb-91c9-e0f4c98190b5.png)
 
 
+**Assmuptions:**
+- Firewall will have ports open for confguration service to provide filter configuraiton to Traffic analyser service.
+- All saas applications behind the gateway service will be load balanced
+- Since running in local, no need for Kubernetes/DOcker autoscaling setup.
+

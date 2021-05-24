@@ -1,16 +1,16 @@
 package com.telecomm.inventory;
 
+import com.netflix.discovery.EurekaClient;
 import com.telecomm.inventory.domain.Tower;
 import com.telecomm.inventory.domain.TowerRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Lazy;
 
-import java.util.Calendar;
-import java.util.Date;
-import java.util.stream.Stream;
 
 @SpringBootApplication
 @EnableDiscoveryClient
@@ -19,6 +19,12 @@ public class InventoryServiceApp {
     public static void main(String[] args) {
         SpringApplication.run(InventoryServiceApp.class, args);
     }
+
+    @Autowired
+    @Lazy
+    private EurekaClient eurekaClient;
+
+
 
     @Bean
     ApplicationRunner init(TowerRepository repository) {

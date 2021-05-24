@@ -1,0 +1,5 @@
+com/telecomm/traffic/TrafficAnalyzerApp.class
+com/telecomm/traffic/domain/Tower.class
+com/telecomm/traffic/domain/Response.class
+com/telecomm/traffic/domain/TowerRepository.class
+com/telecomm/traffic/resources/CommunicationResource.class
